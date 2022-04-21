@@ -4,12 +4,17 @@
 
 <p>Primeiro projeto utilizando os conhecimentos de HTML/CSS. Esse site foi desenvolvido no primeiro semestre para disciplina de WebDesign, foi escolhido um site de hamburgueria para a prática.</p>
 
+<img alt="Login" src="./assets/Login.png" />
+<img alt="Cardápio" src="./assets/Cardápio.png" />
+
+
 ### Features
 
 - [x] Cardápio.
 - [x] Avaliações. 
 - [x] Contato.
 - [x] Carrinho.
+- [x] Login.
 - [ ] Adicionar produtos ao carrinho.
 
 ### Pré-requisitos
