@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Img/favicon.ico" type="image/x-icon">
+    <title>Login</title>
+    <style>
+        #bloco_cadastro{
+            position: relative;
+            margin: auto;
+            background-color: white;
+            width: 350px;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        #log_cad{
+            position: relative;
+            text-align: center;
+            margin: 5px 0px 10px 0px;
+        }
+        #traço{
+            color: #DD9710;
+            margin: 0px 15px 0px 15px;
+        }
+        #x{
+            position: absolute;
+            right: 0px;
+            width: 18px;
+        }
+        #quadrado_do_meio{
+            display: inline-block;
+            text-align: center;
+        }
+        #conta_fb{
+            display: inline-block;
+            background-color: #3B5998;
+            padding: 0px 12px 12px 12px;
+            border-radius: 10px;
+            margin: 10px 0px 10px 0px;
+        }
+        #conta_fb:hover{
+            background-color: #3960b4;
+            box-shadow: 1px 1px 10px black;
+        }
+        aside>a{
+            color: white;
+        }
+        #nome{
+            display: block;
+            height: 30px;
+            width: 95%;
+            text-indent: 5px;
+            border-radius: 10px;
+            margin: 10px 10px 0px 4px;
+            outline: none;
+        }  
+        #nome:focus{
+            background-color: rgb(219, 218, 218);
+        }
+        #senha{
+            display: block;
+            height: 30px;
+            width: 95%;
+            text-indent: 5px;
+            border-radius: 10px;
+            margin: 10px 10px 10px 4px;
+            outline: none;
+        }
+        #senha:focus{
+            background-color: rgb(219, 218, 218);
+        }
+        #esqueci{
+            display: block;
+            margin-bottom: 100px;
+            color: #DD9710;
+        }
+        #esqueci:hover{
+            color: #f1b947;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Img/hamburgueres.png" alt="hamburgueres" id="logo">
+        <div class="título">
+            <h1>SEBOSÃO'S BURGUER</h1>
+            <address>R. dos pajeús, 1499 Alecrim, Natal</address>
+            <img src="Img/marcador-de-mapa.png" alt="" id="marcador">
+        </div>
+        <a href="" class="botão" id="entrar">Entrar</a>
+    </header>
+    <nav>
+        <img src="Img/garfo-e-faca-em-cruz.png" alt="faca e garfo" class="icone_menu">
+        <a href="index.html" class="botão">Cardápio</a>
+        <img src="Img/estrela.png" alt="Estrela" class="icone_menu">
+        <a href="avaliação.html" class="botão"> Avalições</a>
+        <img src="Img/celular.png" alt="Celular" class="icone_menu">
+        <a href="contato.html" class="botão"> Contato</a>
+    </nav>
+    <div id="info" style="margin-bottom: 100px;">
+        <img src="Img/agenda.png" alt="Agenda" class="icone_menu">
+        <span> Horário de funcionamento.</span>
+        <img src="Img/relogio-circular-de-parede-para-sala-de-estar.png" alt="Relógio" class="icone_menu">
+        <span>Tempo de entrega 40-60 min.</span>
+        <img src="Img/pagamento-com-cartao-de-credito.png" alt="" class="icone_menu">
+        <span>Formas de pagamento.</span>
+    </div>
+    <main>
+        <section id="bloco_cadastro">
+            <div id="log_cad">
+                <span style="color: #DD9710;">LOGIN</span>
+                <span id="traço">|</span>
+                <span style="color: #DD9710;">CADASTRE-SE</span>
+                <img src="Img/letra-x.png" alt="letra-x" id="x">
+            </div>
+            <hr>
+            <section id="quadrado_do_meio">
+                <aside>
+                    <a href="https://www.facebook.com/" target="_blank" rel="external">
+                        <p id="conta_fb"><img src="Img/facebook.png" alt="facebook" style="width: 30px; transform: translateY(8px);"> CONTINUAR COM FACEBOOK</p>
+                    </a>
+                </aside>
+                <input type="text" placeholder="E-mail" name="nome" id="nome" autocomplete="email" autofocus>
+                <input type="password" placeholder="senha" name="senha" id="senha">
+                <a href="" id="esqueci">Esqueci minha senha</a>
+                <input type="submit" value="Entrar" class="botão">
+            </section>
+        </section>
+    </main>
+    <footer style="margin-top: 100px;" id="rodaprinc">
+        <ul class="Lista_footer" style="margin-left: 20px;">
+            <li id="titulo_footer">Plataforma desenvolvida por:</li>
+            <li>Italo Gabriel e</li>
+            <li>Mathews Dantas</li>
+        </ul>
+        <ul class="Lista_footer">
+            <li id="titulo_footer">Contato do estabelecimento:</li>
+            <li>ESC (84) XXXXX-XXXX FIXO (84) XXXXXXXX</li>
+            <li>leprasburguer@gmail.com</li>
+            <li>
+                <address>R. dos pajeús, 1499 Alecrim, Natal</address>
+            </li>
+        </ul>
+        <ul class="Lista_footer" style="margin-right: 10px;">
+            <li id="titulo_footer">Horário de atendimento:</li>
+            <li>SEGUNDA A SEXTA</li>
+            <li>09H - 21H</li>
+            <li>Horário de Brasília</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

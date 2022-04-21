@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Img/favicon.ico" type="image/x-icon">
+    <title>Carrinho</title>
+    <style>
+        #compras{
+            background-color: white;
+            color: black;
+            padding: 10px 10px 10px 10px;
+            border-radius: 10px;
+            margin: auto;
+            width: 900px;
+        }
+        #compras>header{
+            background-color: #DD9710;
+            border-radius: 10px;
+            margin: 10px 10px 10px 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 1.5em;
+        }
+        #compras>header>img{
+            width: 30px;
+        }
+        #compras>header>span{
+            display: inline-block;
+            transform: translateY(-5px);
+            margin-left: 10px;
+        }
+        #compras>div{
+            text-align: center;
+            margin: 200px 0px 200px 0px;
+        }
+        #compras>footer{
+            position: relative;
+            background-color: #DD9710;
+            border-radius: 10px;
+            margin: 10px 10px 10px 10px;
+            padding: 20px 10px 20px 10px;
+            font-size: 1.5em;
+        }
+        #compras>footer>a{
+            position: absolute;
+            right: 2%;
+            top: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Img/hamburgueres.png" alt="hamburgueres" id="logo">
+        <div class="título">
+            <h1>SEBOSÃO'S BURGUER</h1>
+            <address>R. dos pajeús, 1499 Alecrim, Natal</address>
+            <img src="Img/marcador-de-mapa.png" alt="" id="marcador">
+        </div>
+        <a href="login.html" class="botão" id="entrar">Entrar</a>
+    </header>
+    <nav>
+        <img src="Img/garfo-e-faca-em-cruz.png" alt="faca e garfo" class="icone_menu">
+        <a href="index.html" class="botão">Cardápio</a>
+        <img src="Img/estrela.png" alt="Estrela" class="icone_menu">
+        <a href="avaliação.html" class="botão"> Avalições</a>
+        <img src="Img/celular.png" alt="Celular" class="icone_menu">
+        <a href="contato.html" class="botão"> Contato</a>
+    </nav>
+    <div id="info">
+        <img src="Img/agenda.png" alt="Agenda" class="icone_menu">
+        <span> Horário de funcionamento.</span>
+        <img src="Img/relogio-circular-de-parede-para-sala-de-estar.png" alt="Relógio" class="icone_menu">
+        <span>Tempo de entrega 40-60 min.</span>
+        <img src="Img/pagamento-com-cartao-de-credito.png" alt="" class="icone_menu">
+        <span>Formas de pagamento.</span>
+    </div>
+    <main>
+        <section id="compras">
+            <header>
+                <img src="Img/carrinho-de-compras.png" alt="carrinho">
+                <span>CARRINHO</span>
+            </header>
+            <div>
+                <p>Não há nenhum produto no carrinho.</p>
+            </div>
+            <footer>
+                <span>Valor Total: R$ 00,00</span>
+                <a href="" class="botão">Finalizar compra</a>
+            </footer>
+        </section>
+    </main>
+    <footer id="rodaprinc">
+        <ul class="Lista_footer" style="margin-left: 20px;">
+            <li id="titulo_footer">Plataforma desenvolvida por:</li>
+            <li>Italo Gabriel e</li>
+            <li>Mathews Dantas</li>
+        </ul>
+        <ul class="Lista_footer">
+            <li id="titulo_footer">Contato do estabelecimento:</li>
+            <li>ESC (84) XXXXX-XXXX FIXO (84) XXXXXXXX</li>
+            <li>leprasburguer@gmail.com</li>
+            <li>
+                <address>R. dos pajeús, 1499 Alecrim, Natal</address>
+            </li>
+        </ul>
+        <ul class="Lista_footer" style="margin-right: 10px;">
+            <li id="titulo_footer">Horário de atendimento:</li>
+            <li>SEGUNDA A SEXTA</li>
+            <li>09H - 21H</li>
+            <li>Horário de Brasília</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
