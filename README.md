@@ -4,9 +4,10 @@
 
 <p>Primeiro projeto utilizando os conhecimentos de HTML/CSS. Esse site foi desenvolvido no primeiro semestre para disciplina de WebDesign, foi escolhido um site de hamburgueria para a prática.</p>
 
-<img alt="Login" src="./assets/Login.png" />
-<img alt="Cardápio" src="./assets/Cardápio.png" />
-
+<p align="center">
+<img width="800" alt="Login" src="./assets/Login.png" />
+<img height="1250" alt="Cardápio" src="./assets/Cardápio.png" />
+</p>
 
 ### Features
 
